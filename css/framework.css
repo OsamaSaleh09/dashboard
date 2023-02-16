@@ -1,0 +1,302 @@
+:root {
+    --main-color: #00547e ;
+    --grey-color: #8d99a7;
+    --main-light:#f1f5f9;
+    --orange-color:#f59e0b;
+    --green-color:#22c55e;
+    --red-color:#f44336;
+    --tran:.3s;
+    --shad-in: 1px 1px 3px #ccc inset , -2px -2px 4px #ccc inset;
+    --shad-out: 0px 5px 5px #ccc,0px -1px 5px #ccc;
+    --border: 1px solid #ccc;
+}
+/* start box */
+.d-block {
+    display: block;
+}
+.d-flex {
+    display: flex
+}
+.align-center {
+    align-items: center
+}
+.space-between {
+    justify-content: space-between
+}
+.d-grid {
+    display: grid
+}
+.gap-20 {
+    gap: 20px
+}
+.f-wrap {
+    flex-wrap: wrap;
+}
+@media (max-width:767px){
+    .block-mobile {
+        display: block
+    }
+    .hidd-mobile {
+        display: none
+    }
+}
+/* end box */
+/* start padding + margin */
+.p-5 {
+    padding: 5px;
+}
+.p-10 {
+    padding: 10px;
+}
+.p-15 {
+    padding: 15px;
+}
+.p-20 {
+    padding: 20px;
+}
+.pt-20{
+    padding-top: 20px
+}  
+.pt-15{
+    padding-top: 15px
+}
+.pt-10{
+    padding-top: 10px
+}
+.pb-20 {
+    padding-bottom: 20px
+}  
+.pb-15 {
+    padding-bottom: 15px
+}
+.pb-10 {
+    padding-bottom: 10px
+}  
+.pl-15 {
+    padding-left: 15px;
+}
+.m-0 {
+    margin: 0;
+}
+.m-15 {
+    margin: 15px;
+}
+.m-20 {
+    margin: 20px;
+}
+.mt-0 {
+    margin-top: 0
+}
+.mt-5 {
+    margin-top: 5px
+}
+.mt-7 {
+    margin-top: 7px
+}
+.mt-10 {
+    margin-top: 10px
+}
+.mt-15 {
+    margin-top:15px
+}
+.mt-20 {
+    margin-top: 20px
+}
+.mt-25 {
+    margin-top: 25px
+} 
+.mr-10 {
+    margin-right: 10px
+}
+.mr-20 {
+    margin-right: 20px
+}
+.mr-15 {
+    margin-right: 15px
+}
+.mb-5 {
+    margin-bottom: 5px
+}
+.mb-7 {
+    margin-bottom: 7px
+}
+.mb-10 {
+    margin-bottom: 10px
+}
+.mb-15 {
+    margin-bottom: 15px
+}
+.mb-20 {
+    margin-bottom: 20px
+}
+.mb-30 {
+    margin-bottom: 30px
+}
+.ml-10 {
+    margin-left: 10px;
+}
+.ml-20 {
+    margin-left: 20px;
+}
+/* end padding + margin */
+/* start color */
+.c-white {
+    color: var(--main-light);
+}
+.bg-light {
+    background-color: var(--main-light);
+}
+.c-grey {
+    color: var(--grey-color);
+}
+.bg-main {
+    background-color: var(--main-color)
+}
+.c-main {
+    color: var(--main-color)
+}
+.bg-orange {
+    background-color: var(--orange-color)
+}
+.c-orange {
+    color: var(--orange-color)
+}
+.bg-green {
+    background-color: var(--green-color)
+}
+.c-green {
+    color: var(--green-color)
+}
+.c-red {
+    color: var(--red-color)
+}
+.bg-red {
+    background-color: var(--red-color)
+}
+.c-black{
+    color: rgb(68, 68, 68);
+}
+.bg-span {
+    background-color: rgb(228, 228, 228);
+}
+/* end color */
+/* start position */
+.relative {
+    position: relative
+}
+.absolute {
+    position: absolute
+}
+/* end position */
+/* start font */
+.fs-2r {
+    font-size: 2rem;
+}
+.fs-14r {
+    font-size: 1.4rem;
+}
+.fs-11r {
+    font-size: 1.1rem;
+}
+.fs-1r {
+    font-size: 1rem;
+}
+.fs-9r {
+    font-size: .9rem;
+}
+.fs-8r {
+    font-size: .8rem;
+}
+.fs-7r {
+    font-size: .7rem;
+}
+.txt-c {
+    text-align: center
+}
+.fw-bold {
+    font-weight: bold;
+}
+@media (max-width:767px){
+    .txt-c-mobile {
+        text-align: center
+    }
+}
+/* end font */
+/* start border */
+.b-rad-6 {
+    border-radius: .4rem
+}
+.rad-half {
+    border-radius: 50%;
+}
+.b-none {
+    border: none;
+}
+.b-bottom {
+    border-bottom: var(--border)
+}
+.b-top {
+    border-top: var(--border)
+}
+.shad-out {
+    -webkit-box-shadow: var(--shad-out);
+    box-shadow: var(--shad-out)
+}
+.shad-in {
+    -webkit-box-shadow: var(--shad-in);
+    box-shadow: var(--shad-in)
+}
+/* end border */
+/* start dimntion */
+.w-full {
+    width: 100%;
+}
+.w-fit {
+    width: fit-content;
+}
+.h-full {
+    height: 100%;
+}
+.vh-full {
+    min-height: 100vh;
+}
+/* end dimntion */
+/* start components */
+.between-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.center-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-shape {
+    padding: 4px 10px;
+    border-radius: 6px;
+    transition: var(--tran)
+}
+.prog {
+    position: relative;
+    border-radius: 6px;
+    height: 8px;
+    width: 260px;
+    overflow: hidden;
+    box-shadow: var(--shad-in)
+}
+.prog-span {
+    border-radius: 3px;
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    height: 4px
+}
+/* end components */
+.trans {
+    transition: var(--tran);
+}
+.ov-hidd {
+    overflow: hidden;
+}
+/* ################################ */
