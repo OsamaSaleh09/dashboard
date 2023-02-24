@@ -281,7 +281,7 @@ input,textarea {
     left: 50%;
     transform: translateX(-50%);
 }
-.targets .details .progress > .blue span::after {
+.targets .details .progress > .main span::after {
     border-top-color: var(--main-color);
 }
 .targets .details .progress > .orange span::after {
